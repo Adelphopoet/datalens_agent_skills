@@ -19,6 +19,7 @@
 
 - data foundation: grain, joins, semantic layer, calculated fields, LOD, parameters;
 - dashboard UX: layout, selectors, chart filtering, tabs, mobile order;
+- implementation playbook: design-to-API flow for agent-created dashboards;
 - performance: source tuning, defaults, visible widgets, concurrent widget limits;
 - storytelling: KPI hierarchy, diagnostics, drill-down, annotations;
 - governance: workbooks, collections, access, versioning, documentation.

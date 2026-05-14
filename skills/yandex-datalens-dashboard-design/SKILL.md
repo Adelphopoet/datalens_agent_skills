@@ -20,6 +20,7 @@ Use this skill when the task is to create or improve an analytical solution in Y
 
 - Read `references/technical-foundation.md` for DataLens-specific dataset, calculations, parameters, selectors, cross-filtering, performance, versioning, and governance rules.
 - Read `references/design-storytelling.md` for dashboard UX, visual hierarchy, chart choice, color, text, and data storytelling guidance.
+- Read `references/implementation-playbook.md` when the user wants an agent to create or update DataLens objects through the Public API.
 - Read `references/review-checklist.md` before final review, handoff, or critique of a dashboard.
 
 ## Senior BI Defaults
