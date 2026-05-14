@@ -1,0 +1,7 @@
+interface:
+  display_name: "Yandex DataLens API"
+  short_description: "Automate DataLens Public API"
+  default_prompt: "Use $yandex-datalens-api to call DataLens Public API methods and handle IAM authentication."
+
+policy:
+  allow_implicit_invocation: true

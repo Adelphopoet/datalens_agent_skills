@@ -1,0 +1,7 @@
+interface:
+  display_name: "Yandex DataLens Dashboards"
+  short_description: "Design and review DataLens dashboards"
+  default_prompt: "Use $yandex-datalens-dashboard-design to design or review a Yandex DataLens dashboard, including data modeling, UX, storytelling, performance, and governance."
+
+policy:
+  allow_implicit_invocation: true
