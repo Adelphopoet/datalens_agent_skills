@@ -11,7 +11,7 @@
 - IAM/auth setup.
 - Workbooks, datasets, connections, dashboards, charts, embeds, exports.
 - Access bindings.
-- CLI-хелпер: `skills/yandex-datalens-api/scripts/datalens_cli.py`.
+- CLI-хелпер: `skills/yandex-datalens-api/scripts/datalens_cli.py`, запуск через `uv run`.
 
 ### `yandex-datalens-dashboard-design`
 
@@ -48,9 +48,12 @@ pytest -q
 Useful API commands:
 
 ```bash
-python skills/yandex-datalens-api/scripts/datalens_cli.py methods
-python skills/yandex-datalens-api/scripts/datalens_cli.py schema getWorkbook --request
+cd skills/yandex-datalens-api
+uv run scripts/datalens_cli.py methods
+uv run scripts/datalens_cli.py schema getWorkbook --request
 ```
+
+Claude Code project skills are exposed through `.claude/skills/` symlinks to the canonical folders under `skills/`.
 
 ## Rules
 
